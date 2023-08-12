@@ -1,0 +1,23 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "indentation": [
+      2
+    ],
+    "selector-class-pattern": null,
+    "no-descending-specificity": null,
+    "declaration-block-no-redundant-longhand-properties": null,
+    "property-no-vendor-prefix": null,
+    "color-function-notation": [
+      "modern",
+      {
+        "ignore": [
+          "with-var-inside"
+        ]
+      }
+    ],
+    "font-family-no-missing-generic-family-keyword": null,
+    "max-line-length": 150,
+    "font-family-name-quotes": "always-unless-keyword"
+  }
+}
