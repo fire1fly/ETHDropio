@@ -1,0 +1,48 @@
+.Header {
+  position: relative;
+  height: 60px;
+  z-index: 2;
+
+  &_inner {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  &_logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    &_pic {
+      flex: 0 0 auto;
+      width: 180px;
+    }
+  }
+
+  &_bar {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  &_btn {
+    min-width: 220px;
+    padding: 0 5px;
+    height: 52px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Header {
+    &_logo {
+      &_pic {
+        width: 135px;
+      }
+    }
+  }
+}
