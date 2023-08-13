@@ -1,0 +1,52 @@
+.Button {
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+
+  &.start {
+    justify-content: flex-start;
+  }
+
+  &.between {
+    justify-content: space-between;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.end {
+    justify-content: end;
+  }
+
+  &_text,
+  &_icon {
+    position: relative;
+    z-index: 2;
+    transition: 0.3s;
+  }
+
+  &_icon {
+    flex: 0 0 auto;
+    line-height: 0;
+  }
+}
+
+.default {
+  border-radius: 60px;
+  background: var(--color-green-light);
+  color: var(--color-blue-main);
+
+  &:hover {
+    background: var(--color-green-main);
+  }
+
+  &:active {
+    background: var(--color-green-dark);
+  }
+
+  .Button_text {
+    font-family: var(--font-sfpro-bold);
+  }
+}
