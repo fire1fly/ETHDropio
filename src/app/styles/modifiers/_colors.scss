@@ -1,0 +1,53 @@
+._c {
+  &-white {
+    color: var(--color-white);
+  }
+
+  &-black {
+    color: var(--color-black);
+  }
+
+  &-yellow {
+    &-main {
+      color: var(--color-yellow-main);
+    }
+  }
+
+  &-blue {
+    &-main {
+      color: var(--color-blue-main);
+    }
+  }
+
+  &-green {
+    &-main {
+      color: var(--color-green-main);
+    }
+  }
+
+  &-red {
+    &-main {
+      color: var(--color-red-main);
+    }
+
+    &-light {
+      color: var(--color-red-light);
+    }
+  }
+
+  &-text {
+    &-main {
+      color: var(--color-text-main);
+    }
+  }
+
+  &-grey {
+    &-1 {
+      color: var(--color-grey-1);
+    }
+
+    &-2 {
+      color: var(--color-grey-2);
+    }
+  }
+}
