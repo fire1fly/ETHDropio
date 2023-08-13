@@ -1,0 +1,87 @@
+._text {
+  &-upper {
+    text-transform: uppercase;
+  }
+
+  &-linetrough {
+    text-decoration: line-through;
+  }
+
+  &-underline {
+    text-decoration: underline;
+  }
+
+  &-bold {
+    font-weight: bold;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-right {
+    text-align: right;
+  }
+}
+
+._fz {
+  &-12 {
+    font-size: 12px;
+  }
+
+  &-13 {
+    font-size: 13px;
+  }
+
+  &-14 {
+    font-size: 14px;
+  }
+
+  &-15 {
+    font-size: 15px;
+  }
+
+  &-16 {
+    font-size: 16px;
+  }
+
+  &-17 {
+    font-size: 17px;
+  }
+
+  &-18 {
+    font-size: 18px;
+  }
+
+  &-19 {
+    font-size: 19px;
+  }
+
+  &-20 {
+    font-size: 20px;
+  }
+
+  &-21 {
+    font-size: 21px;
+  }
+
+  &-22 {
+    font-size: 22px;
+  }
+
+  &-23 {
+    font-size: 23px;
+  }
+
+  &-24 {
+    font-size: 24px;
+  }
+
+  &-30 {
+    font-size: 30px;
+  }
+
+  &-36 {
+    font-size: 36px;
+  }
+}

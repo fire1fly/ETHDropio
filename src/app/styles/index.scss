@@ -1,0 +1,49 @@
+@import "./normalize";
+@import "./variables/global";
+@import "./fonts";
+@import "./modifiers/index";
+
+* {
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-theme-darkest) var(--color-theme-main);
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--color-theme-darkest);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--color-theme-main);
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+.app {
+  overflow: hidden;
+  min-height: 100vh;
+  background: var(--color-theme-darkest);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1480px;
+  padding: 0 20px;
+}

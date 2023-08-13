@@ -1,0 +1,23 @@
+:root {
+  /* Typography */
+  --font-proxymanova-bold: "ProximaNova Bold", system-ui, -apple-system, sans-serif;
+  --font-sfpro-regular: "SF Pro Regular", system-ui, -apple-system, sans-serif;
+  --font-sfpro-semibold: "SF Pro Semibold", system-ui, -apple-system, sans-serif;
+  --font-sfpro-bold: "SF Pro Bold", system-ui, -apple-system, sans-serif;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-white-rgb: 255 255 255;
+  --color-black: #000;
+  --color-black-rgb: 0 0 0;
+  --color-green-light: #d5ff7a;
+  --color-green-main: #b9f340;
+  --color-green-dark: #90c71b;
+  --color-blue-main: #00304b;
+  --color-blue-dark: #06072a;
+  --color-blue-darkest: #120d23;
+  --color-theme-lightest: #9d85ff;
+  --color-theme-light: #7b47e1;
+  --color-theme-main: #6838f9;
+  --color-theme-darkest: #0a051b;
+}
