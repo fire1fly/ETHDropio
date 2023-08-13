@@ -1,0 +1,34 @@
+.Page {
+  position: relative;
+  display: block;
+
+  &_inner {
+    position: relative;
+    z-index: 2;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(30%, -30%);
+    border-radius: 80vw;
+    width: 50vw;
+    height: 50vw;
+    background: rgba(58 78 255 / 60%);
+    mix-blend-mode: color-dodge;
+    filter: blur(350px);
+    z-index: 1;
+  }
+}
+
+@media (max-width: 991px) {
+  .Page {
+    &::after {
+      transform: translate(50%, 100%);
+      background: #3a4eff;
+      filter: blur(200px);
+    }
+  }
+}
